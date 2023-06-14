@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #2b3b48;
+    background-image: url(../CSS/wallpaperflare.com_wallpaper.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-image: url(../CSS/fondo_form.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    margin-left: 450px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 50px;
+}
+
+.formulario h1 {
+    font-size: xX-large;
+    color: #2b3b48;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-control label {
+    padding: 2px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 1px solid midnightblue;
+    background-color: ghostwhite;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #292929;
+}
+
+.input-control label {
+    text-transform: uppercase;
+}
+
+.input-control:focus-within label {
+    color: #f7c87c;
+    font-weight: 600;
+}
+
+.input-control label:hover {
+    color: #f7c87c;
+}
+
+.input-control input:hover {
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #f7c87c;
+}
+
+.input-control input:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #f7c87c;
+}
+
+.formulario button {
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #2b3b48;
+    border: 1px solid midnightblue;
+    color: ghostwhite;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+#formulario button:hover {
+    box-shadow: 4px 4px 4px #f7da7c;
+    cursor: pointer;
+    transform: scale(0.99);
+    color: #f7da7c;
+}
+
+.input-control.success input {
+    border-color: limegreen;
+}
+
+.input-control.error input {
+    border-color: crimson;
+}
+
+.input-control .error {
+    color: crimson;
+    font-size: 10px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton_usuarios {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #2b3b48;
+    border: 1px solid midnightblue;
+    color: ghostwhite;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+
+.boton_usuarios:hover {
+    box-shadow: 4px 4px 4px #f7da7c;
+    cursor: pointer;
+    transform: scale(0.99);
+    color: #f7da7c;
+}
+
+.msg-exito{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04ab77;
+    color: ghostwhite;
+}
+
+.msg-error{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson;
+    color: ghostwhite;
+}
+

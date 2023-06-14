@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #2b3b48;
+    margin-top: 100px;
+    background-image: url(../CSS/wallpaperflare.com_wallpaper.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-image: url(../CSS/fondo_form.png);
+    background-size: auto;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.exito_form{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+}
+
+.boton_usuarios{
+    background-color: #2b3b48;
+    border: 1px solid midnightblue;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: ghostwhite;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.boton_usuarios:hover {
+    box-shadow: 4px 4px 4px #f7da7c;
+    cursor: pointer;
+    transform: scale(0.99);
+    color: #f7da7c;
+}
+
+.boton_usuarios a{
+    text-decoration: none;
+    font-style: none;
+    color: ghostwhite;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    background-color: #2b3b48;
+    opacity: 0.8;
+}
+
+table td {
+    padding:5px 30px;
+    text-align: center;
+}
+
+table th{
+    padding:5px 30px;
+    font-weight: 600;
+    color: #f7da7c;
+}
+
